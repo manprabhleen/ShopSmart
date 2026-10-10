@@ -266,6 +266,7 @@ export default function App() {
             onToggleCompare={handleToggleCompare}
             comparedIds={comparedIds}
             isLiveApi={isLiveApi}
+            onOpenDetails={setSelectedDetailProduct}
           />
         )}
 
